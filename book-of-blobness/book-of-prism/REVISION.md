@@ -1,5 +1,12 @@
 # Revision Record — BOB-V0001
 
+## 0.2 — 2026-08-02
+
+- Reorganized the Book of Prism as one named Book across the repository-level Forest, Book of Blobness, Book of Renderings, and Concordance shelves.
+- Preserved `BOB-V0001`, every local object identifier, and the original permissions and provenance status.
+- Added cross-layer navigation and a reusable Book starter guide.
+- Left the mirrored play bytes unchanged; the recorded SHA-256 remains valid.
+
 ## 0.1 — 2026-08-01
 
 - Mirrored Cathedral's published Prism play exactly from commit `f665ab3f4076e2a80a8047a6d61e2e8630eb2669`.

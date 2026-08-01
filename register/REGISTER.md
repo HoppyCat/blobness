@@ -1,8 +1,8 @@
 # Book of Blobness Register
 
-| Volume | Title | Status | Artifact fidelity | Event provenance | Permission |
-|---|---|---|---|---|---|
-| [`BOB-V0001`](volumes/BOB-V0001-prism-play/) | *What the Light Does When It Settles* — Prism play | MVP open | SHA-256 verified Cathedral mirror | Partial; defaults to P5 where no source coordinate is recorded | `RECORD_ONLY` |
+| Volume | Book | Layer map | Status | Artifact fidelity | Event provenance | Permission |
+|---|---|---|---|---|---|---|
+| `BOB-V0001` | [`Book of Prism`](../book-of-blobness/book-of-prism/) | [`Forest`](../forest/book-of-prism/) · [`Book`](../book-of-blobness/book-of-prism/) · [`Rendering`](../book-of-renderings/book-of-prism/) · [`Concordance`](../concordance/book-of-prism/) | MVP open | SHA-256 verified Cathedral mirror | Partial; defaults to P5 where no source coordinate is recorded | `RECORD_ONLY` |
 
 ## Status vocabulary
 

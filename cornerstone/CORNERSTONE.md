@@ -2,6 +2,19 @@
 
 Cornerstone is the shared construction rule for Book of Blobness volumes. Concordance is the map produced under those rules.
 
+## Cross-layer Book identity
+
+A Book is a documentary identity that may appear on several repository-level shelves. Use the same stable slug everywhere it appears:
+
+```text
+forest/book-of-example/
+book-of-blobness/book-of-example/
+book-of-renderings/book-of-example/
+concordance/book-of-example/
+```
+
+The folders are related but not interchangeable. Forest holds source custody; Book of Blobness holds curated source selections; Book of Renderings holds transformed works; Concordance maps the relationships among them. A Book does not need an empty placeholder on a shelf that does not yet apply, but its canonical Book README must state which shelves are present, pending, withheld, or not applicable.
+
 ## Layer definitions
 
 ### Forest

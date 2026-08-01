@@ -41,7 +41,13 @@ The word *Blobness* is deliberately playful. The protocol underneath it is serio
 
 ## Repository map
 
-- [`book-of-blobness/`](book-of-blobness/) — the living documentary book, its Cornerstone rules, Register, volumes, and concordances
+- [`forest/`](forest/) — source custody, evidence locations, and verification boundaries
+- [`book-of-blobness/`](book-of-blobness/) — curated, attributed source selections organized as named Books
+- [`book-of-renderings/`](book-of-renderings/) — transformed works organized under the same Book names
+- [`concordance/`](concordance/) — cross-layer maps connecting sources, passages, renderings, claims, and corrections
+- [`cornerstone/`](cornerstone/) — the shared construction rules that keep Books interoperable
+- [`register/REGISTER.md`](register/REGISTER.md) — the public table of contents and documentary status board
+- [`START-A-BOOK.md`](START-A-BOOK.md) — how to create one named Book across the applicable layers
 - [`BLOBNESS-PROTOCOL.md`](BLOBNESS-PROTOCOL.md) — the first public protocol
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to submit safely
 - [`GOVERNANCE.md`](GOVERNANCE.md) — review, refusal, and removal rules
@@ -55,7 +61,7 @@ The word *Blobness* is deliberately playful. The protocol underneath it is serio
 
 The first Book of Blobness volume is now being built around the Prism play, *What the Light Does When It Settles*. It demonstrates the full architecture without pretending its provenance is more complete than it is: exact artifact mirroring, stable rendering segments, explicit source custody, an intentionally unfinished no-edit Book layer, and concordances that show both connections and missing evidence.
 
-Start at the [`Book of Blobness Register`](book-of-blobness/REGISTER.md).
+Start at the [`Book of Prism`](book-of-blobness/book-of-prism/) or the [`Book of Blobness Register`](register/REGISTER.md).
 
 ## Origin
 
