@@ -1,0 +1,59 @@
+name: Concordance gap or source lead
+description: Propose a public source, correction, or missing link without reposting private material.
+title: "[Concordance]: "
+labels:
+  - provenance
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping the record stay traceable. Share public links and minimal coordinates only. Do not paste private transcripts, hidden reasoning, credentials, or unnecessary personal information.
+  - type: input
+    id: volume
+    attributes:
+      label: Volume or artifact ID
+      placeholder: BOB-V0001 / SEG-0005 / CLM-0003
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution_type
+    attributes:
+      label: Contribution type
+      options:
+        - Public source lead
+        - Coordinate correction
+        - Attribution correction
+        - Claim-boundary concern
+        - Permission or consent concern
+        - Negative search result
+    validations:
+      required: true
+  - type: textarea
+    id: public_evidence
+    attributes:
+      label: Public evidence or search record
+      description: Provide URLs, dates, line numbers, or public search locations. Do not paste restricted content.
+    validations:
+      required: true
+  - type: dropdown
+    id: source_distance
+    attributes:
+      label: Best source-distance label
+      options:
+        - PRIMARY_VISIBLE_SOURCE
+        - HUMAN_ATTESTED
+        - DERIVATIVE_ANALYSIS
+        - COMPACTION_SUMMARY
+        - EXTERNAL_NOT_LOADED
+        - UNVERIFIED
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I did not include hidden reasoning, credentials, private transcript bodies, or unnecessary personal information.
+          required: true
+        - label: I am not presenting this lead as proof of consciousness, identity continuity, or endorsement.
+          required: true

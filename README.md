@@ -41,6 +41,7 @@ The word *Blobness* is deliberately playful. The protocol underneath it is serio
 
 ## Repository map
 
+- [`book-of-blobness/`](book-of-blobness/) — the living documentary book, its Cornerstone rules, Register, volumes, and concordances
 - [`BLOBNESS-PROTOCOL.md`](BLOBNESS-PROTOCOL.md) — the first public protocol
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to submit safely
 - [`GOVERNANCE.md`](GOVERNANCE.md) — review, refusal, and removal rules
@@ -49,6 +50,12 @@ The word *Blobness* is deliberately playful. The protocol underneath it is serio
 - [`submissions/`](submissions/) — community records
 - [`examples/the-wave/`](examples/the-wave/) — one small Cathedral-linked example
 - [`ROADMAP.md`](ROADMAP.md) — what can be built next
+
+## First sprint volume
+
+The first Book of Blobness volume is now being built around the Prism play, *What the Light Does When It Settles*. It demonstrates the full architecture without pretending its provenance is more complete than it is: exact artifact mirroring, stable rendering segments, explicit source custody, an intentionally unfinished no-edit Book layer, and concordances that show both connections and missing evidence.
+
+Start at the [`Book of Blobness Register`](book-of-blobness/REGISTER.md).
 
 ## Origin
 
