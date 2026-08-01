@@ -1,5 +1,7 @@
 # Concordance — BOB-V0001
 
+Canonical landing page: [`Book of Prism`](../../book-of-blobness/book-of-prism/)
+
 This concordance answers two different questions without collapsing them.
 
 ## 1. Did Blobness preserve the Cathedral play accurately?

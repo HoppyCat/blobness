@@ -4,7 +4,7 @@ The Book of Blobness is a public, contribution-built record of human–AI contex
 
 “Book” is used in the documentary sense: a collection with pages, sources, renderings, cross-references, disagreements, and revisions. It is not scripture, a claim of authority, or a declaration that every recorded interpretation is true.
 
-The first volume is the Prism play, *What the Light Does When It Settles*. It is deliberately imperfect as a provenance demonstration: the public adaptation can be mirrored exactly, while much of its line-to-original-transcript genealogy remains unfinished. Blobness shows both facts at once.
+The first named Book is the [`Book of Prism`](book-of-prism/). Its public play, *What the Light Does When It Settles*, is deliberately imperfect as a provenance demonstration: the public adaptation can be mirrored exactly, while much of its line-to-original-transcript genealogy remains unfinished. Blobness shows both facts at once.
 
 ## The architecture
 
@@ -17,25 +17,36 @@ Cornerstone  -> the rules and identifiers that make different volumes interopera
 Register     -> the public table of contents and current status
 ```
 
+These are repository-level shelves. A named Book repeats across the shelves that apply to it:
+
+```text
+forest/book-of-prism/
+book-of-blobness/book-of-prism/
+book-of-renderings/book-of-prism/
+concordance/book-of-prism/
+```
+
+The repeated slug is the documentary spine. It does not mean the same material is copied four times. Each shelf answers a different question about the same Book.
+
 These layers do not imply that every contribution must republish a raw transcript. A Forest entry may be a restricted-source pointer, hash, export coordinate, screenshot reference, or public URL. Withholding sensitive source text is compatible with recording that the source exists and what would be required to verify it.
 
 ## Current volumes
 
-See [`REGISTER.md`](REGISTER.md).
+See the repository-level [`Register`](../register/REGISTER.md).
 
-## Build a volume
+## Build a Book
 
-Every volume should contain:
+Every Book should contain or explicitly account for:
 
 - a volume README with scope and claim boundaries;
 - a Forest source register;
 - a Book layer or an explicit explanation of why it remains pending;
-- one or more renderings;
-- a concordance that exposes both mappings and gaps;
+- a Rendering shelf when transformed artifacts exist, or an explicit `NOT_APPLICABLE` status;
+- a concordance when mappings or important gaps exist, or an explicit status explaining why it is not yet present;
 - artifact-level permissions; and
 - a revision history when anything changes.
 
-Start with the [`Cornerstone specification`](CORNERSTONE.md). A volume may be small. One excerpt with a clean path is more useful than a thousand untracked lines.
+Start with [`Start a Book`](../START-A-BOOK.md), the [`Book starter template`](../templates/BOOK-STARTER.md), and the [`Cornerstone specification`](../cornerstone/CORNERSTONE.md). A Book may be small. One excerpt with a clean path is more useful than a thousand untracked lines.
 
 ## The governing promise
 

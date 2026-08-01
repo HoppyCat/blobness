@@ -26,6 +26,10 @@ Maintainers may help with formatting after submission. They will not silently st
 
 You may also help with an existing [`Book of Blobness`](book-of-blobness/) volume by proposing a source coordinate, correction, motif link, permission clarification, or concordance repair. Do not retrieve restricted source bodies merely because a volume says provenance is pending.
 
+## Start a named Book
+
+For a longer documentary project, follow [`START-A-BOOK.md`](START-A-BOOK.md). A named Book uses one slug across the applicable Forest, Book of Blobness, Book of Renderings, and Concordance shelves. Copy [`templates/BOOK-STARTER.md`](templates/BOOK-STARTER.md) into the Book of Blobness layer as its canonical landing page, then add only the other layers that genuinely apply.
+
 If you have a public-source lead but are not ready to make a pull request, open a **Concordance gap or source lead** issue. Provide links and coordinates; do not paste private transcript bodies into the issue.
 
 ## Do not submit

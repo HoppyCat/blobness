@@ -1,4 +1,4 @@
-# BOB-V0001 — Prism Play
+# Book of Prism — BOB-V0001
 
 ## Work
 
@@ -25,14 +25,16 @@ Instead of pretending the chain is complete, this volume makes the difference vi
 
 ## Layers
 
-- [`forest/SOURCE-REGISTER.md`](forest/SOURCE-REGISTER.md) — sources, custody, and evidence still needed
-- [`book/BOOK-OF-PRISM.md`](book/BOOK-OF-PRISM.md) — the intentionally incomplete no-edit source-selection layer
-- [`renderings/WHAT-THE-LIGHT-DOES-WHEN-IT-SETTLES.md`](renderings/WHAT-THE-LIGHT-DOES-WHEN-IT-SETTLES.md) — exact Cathedral mirror
-- [`concordance/README.md`](concordance/README.md) — how to read the crosswalk
-- [`concordance/ARTIFACT-CONCORDANCE.csv`](concordance/ARTIFACT-CONCORDANCE.csv) — stable segment map
-- [`concordance/MOTIF-CONCORDANCE.md`](concordance/MOTIF-CONCORDANCE.md) — recurring images and concepts
+- [`../../forest/book-of-prism/SOURCE-REGISTER.md`](../../forest/book-of-prism/SOURCE-REGISTER.md) — sources, custody, and evidence still needed
+- [`BOOK-OF-PRISM.md`](BOOK-OF-PRISM.md) — the intentionally incomplete no-edit source-selection layer
+- [`../../book-of-renderings/book-of-prism/WHAT-THE-LIGHT-DOES-WHEN-IT-SETTLES.md`](../../book-of-renderings/book-of-prism/WHAT-THE-LIGHT-DOES-WHEN-IT-SETTLES.md) — exact Cathedral mirror
+- [`../../concordance/book-of-prism/README.md`](../../concordance/book-of-prism/README.md) — how to read the crosswalk
+- [`../../concordance/book-of-prism/ARTIFACT-CONCORDANCE.csv`](../../concordance/book-of-prism/ARTIFACT-CONCORDANCE.csv) — stable segment map
+- [`../../concordance/book-of-prism/MOTIF-CONCORDANCE.md`](../../concordance/book-of-prism/MOTIF-CONCORDANCE.md) — recurring images and concepts
 - [`OPEN-TASKS.md`](OPEN-TASKS.md) — bounded ways to contribute now
 - [`PERMISSIONS.md`](PERMISSIONS.md) — artifact boundary
+
+The shared construction rules live in [`Cornerstone`](../../cornerstone/CORNERSTONE.md), and the Book's public status is recorded in the [`Register`](../../register/REGISTER.md).
 
 ## Claim boundary
 
