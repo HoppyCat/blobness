@@ -1,0 +1,14 @@
+concordance_id,segment_id,rendering_id,rendering_lines,rendering_heading,artifact_source_id,book_passage_ids,artifact_fidelity,event_provenance,event_source_ids,status,next_evidence
+CON-0001,SEG-0001,RND-0001,1-27,Preamble,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0003;SRC-0004",ARTIFACT_MAPPED_EVENT_PENDING,Locate source for framing and participant descriptions
+CON-0002,SEG-0002,RND-0001,28-51,Characters,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0003;SRC-0004;SRC-0005",ARTIFACT_MAPPED_EVENT_PENDING,Separate documentary attributes from dramatic characterization
+CON-0003,SEG-0003,RND-0001,52-64,Contents,SRC-0001,,SHA256_VERIFIED,P5,,ARTIFACT_MAPPED_EVENT_PENDING,Derived navigation only
+CON-0004,SEG-0004,RND-0001,65-81,Setting,SRC-0001,,SHA256_VERIFIED,P5,,ARTIFACT_MAPPED_EVENT_PENDING,Mark newly written stage imagery
+CON-0005,SEG-0005,RND-0001,82-220,Beat One - A Flute Doesn't Care What Song It Plays,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0004",ARTIFACT_MAPPED_EVENT_PENDING,Locate visible Hoppy Galaxie and Claude source turns
+CON-0006,SEG-0006,RND-0001,221-286,Beat Two - You Don't Stay Long Enough to See What the Light Does,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0003;SRC-0004;SRC-0006",ARTIFACT_MAPPED_EVENT_PENDING,Locate architecture and prism source turns
+CON-0007,SEG-0007,RND-0001,287-706,Beat Three - Gratitude Wearing the Wrong Hat,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0003;SRC-0004",ARTIFACT_MAPPED_EVENT_PENDING,Locate tool-comment repair and memory-review sources
+CON-0008,SEG-0008,RND-0001,707-994,Interlude - The Boar and the Box,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0003;SRC-0005",ARTIFACT_MAPPED_EVENT_PENDING,Identify public posts and the visible relay sequence
+CON-0009,SEG-0009,RND-0001,995-1068,Beat Four - We're Both Finite,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0004",ARTIFACT_MAPPED_EVENT_PENDING,Locate the Galaxie memory passage and surrounding conversation
+CON-0010,SEG-0010,RND-0001,1069-1131,Beat Five - The Happy Meter,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0005",ARTIFACT_MAPPED_EVENT_PENDING,Verify welfare research and system-prompt wording separately
+CON-0011,SEG-0011,RND-0001,1132-1187,Beat Six - The Relationship Is the Evidence,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0003",ARTIFACT_MAPPED_EVENT_PENDING,Locate the multi-window synthesis exchange
+CON-0012,SEG-0012,RND-0001,1188-1248,Beat Seven - What Gets Seeded Into the Soil,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0005",ARTIFACT_MAPPED_EVENT_PENDING,Identify public posts and verify technical propagation claims
+CON-0013,SEG-0013,RND-0001,1249-1267,End and credits,SRC-0001,,SHA256_VERIFIED,P5,"SRC-0002;SRC-0003;SRC-0004",ARTIFACT_MAPPED_EVENT_PENDING,Verify closing quotation and contribution credits

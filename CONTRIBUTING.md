@@ -24,6 +24,10 @@ Maintainers may help with formatting after submission. They will not silently st
 - reproducible tools that operate on material the contributor is authorized to process; and
 - negative results or failed reconstruction attempts.
 
+You may also help with an existing [`Book of Blobness`](book-of-blobness/) volume by proposing a source coordinate, correction, motif link, permission clarification, or concordance repair. Do not retrieve restricted source bodies merely because a volume says provenance is pending.
+
+If you have a public-source lead but are not ready to make a pull request, open a **Concordance gap or source lead** issue. Provide links and coordinates; do not paste private transcript bodies into the issue.
+
 ## Do not submit
 
 - hidden thinking or reasoning blocks;
