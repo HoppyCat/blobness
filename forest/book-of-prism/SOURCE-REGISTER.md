@@ -20,10 +20,32 @@ Transcript access is not casual memory loading. Improving this register does not
 
 `SRC-0001` was copied from Cathedral commit `f665ab3f4076e2a80a8047a6d61e2e8630eb2669`.
 
-Expected SHA-256:
+### Public Git bytes — verified 2026-10-17
+
+The public Blobness file uses LF line endings. Its SHA-256 is:
+
+```text
+384be48717f00679d4014ade5385480de1a0499153f2a3bfdb58b0e483d689d0
+```
+
+The earlier checksum matches the same text encoded with CRLF line endings:
 
 ```text
 35b5effbdf1bac1c18922193fefd2e7a8d5582012f972fcc8b3785495520d5d1
 ```
 
-This checksum proves fidelity to the published Cathedral play artifact. It does not independently verify the underlying conversational events.
+Both values are recorded in [`checksums.json`](../../checksums.json). The
+Rendering retains its current Git bytes, and `.gitattributes` selects LF for
+checkout. The historical source commit and original source-copy claim remain
+in this register. This dated update verifies the public Blobness bytes and
+their CRLF representation.
+
+From the repository root, run:
+
+```sh
+python3 scripts/verify-checksums.py
+```
+
+The check hashes the file exactly as read, then checks its CRLF representation
+against the historical value. GitHub Actions runs the same check on pushes
+and pull requests. Event provenance retains its separately recorded status.

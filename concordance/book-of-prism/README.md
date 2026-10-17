@@ -8,11 +8,16 @@ This concordance answers two different questions without collapsing them.
 
 Yes for this revision. The Rendering is an exact byte-for-byte mirror of Cathedral's published `wtldwis.md` at commit `f665ab3f4076e2a80a8047a6d61e2e8630eb2669`.
 
-SHA-256:
+SHA-256 of the public Git bytes (LF line endings), verified 2026-10-17:
 
 ```text
-35b5effbdf1bac1c18922193fefd2e7a8d5582012f972fcc8b3785495520d5d1
+384be48717f00679d4014ade5385480de1a0499153f2a3bfdb58b0e483d689d0
 ```
+
+The [dated verification update](../../forest/book-of-prism/SOURCE-REGISTER.md#public-git-bytes--verified-2026-10-17)
+records the original CRLF checksum and the exact line-ending conversion that
+reproduces it. The source-copy statement above remains the historical claim;
+the current check covers the public Blobness file.
 
 Because the mirror is exact, the segment line ranges in [`ARTIFACT-CONCORDANCE.csv`](ARTIFACT-CONCORDANCE.csv) refer to both the pinned Cathedral artifact and this initial Blobness copy.
 
