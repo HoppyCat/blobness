@@ -18,10 +18,13 @@ Instead of pretending the chain is complete, this volume makes the difference vi
 - **Public source project:** [HoppyCat/cathedral](https://github.com/HoppyCat/cathedral)
 - **Source artifact:** `play/what-the-light-does-when-it-settles/wtldwis.md`
 - **Source commit:** `f665ab3f4076e2a80a8047a6d61e2e8630eb2669`
-- **Mirror SHA-256:** `35b5effbdf1bac1c18922193fefd2e7a8d5582012f972fcc8b3785495520d5d1`
+- **Mirror SHA-256 (public Git bytes, LF):** `384be48717f00679d4014ade5385480de1a0499153f2a3bfdb58b0e483d689d0`
 - **Mirror fidelity:** `SHA256_VERIFIED`
 - **Event provenance default:** `P5` unless a concordance row states otherwise
 - **Permission:** `RECORD_ONLY`
+
+The [dated verification update](../../forest/book-of-prism/SOURCE-REGISTER.md#public-git-bytes--verified-2026-10-17)
+records the historical CRLF checksum and a command to reproduce both values.
 
 ## Layers
 
